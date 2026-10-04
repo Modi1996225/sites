@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>SITES · 站点已上线</title>
+<meta name="description" content="一个可自动部署的静态站点骨架，托管在 GitHub Pages 上。" />
+<meta name="theme-color" content="#FAF7F2" />
+<link rel="stylesheet" href="./assets/css/styles.css" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='42' fill='%23E07A3F'/></svg>" />
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="./">
+      <span class="brand-dot" aria-hidden="true"></span>
+      <span>SITES</span>
+    </a>
+    <nav class="nav">
+      <a href="#status">状态</a>
+      <a href="#next">下一步</a>
+      <a class="nav-cta" href="https://github.com/Modi1996225/sites" target="_blank" rel="noopener">仓库</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow">部署成功 · GitHub Pages</p>
+      <h1>你的网站，<br />已经上线了。</h1>
+      <p class="lead">
+        这是一个静态站点骨架，已经接好自动部署流程：以后只要更新文件并推送到
+        <code>main</code> 分支，线上会在一分钟左右自动更新。
+      </p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="#next">看看下一步</a>
+        <a class="btn btn-ghost" href="https://github.com/Modi1996225/sites" target="_blank" rel="noopener">查看源码</a>
+      </div>
+      <ul class="hero-meta" id="status">
+        <li><strong id="meta-domain">—</strong><span>访问地址</span></li>
+        <li><strong>HTTPS</strong><span>自动签发证书</span></li>
+        <li><strong>≈60s</strong><span>推送即上线</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="wrap grid-3">
+      <article class="card">
+        <div class="card-icon">⚡</div>
+        <h3>推送到即部署</h3>
+        <p>改动提交到 <code>main</code>，GitHub Pages 自动构建并发布，无需手动上传。</p>
+      </article>
+      <article class="card">
+        <div class="card-icon">🌍</div>
+        <h3>全球 CDN 加速</h3>
+        <p>静态资源由 GitHub 全球节点分发，国内外访问速度都有保障。</p>
+      </article>
+      <article class="card">
+        <div class="card-icon">🔒</div>
+        <h3>免费 HTTPS</h3>
+        <p>自动签发并续期证书，无需自己配置域名和证书。</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="next" id="next">
+    <div class="wrap">
+      <h2>下一步：换成你的内容</h2>
+      <p class="section-lead">现在这个页面只是占位。把下面的东西告诉我，我就直接改。</p>
+      <ol class="steps">
+        <li><span class="step-no">1</span><div><strong>站点主题</strong><p>这个网站是做什么的？个人主页 / 产品介绍 / 落地页 / 活动页。</p></div></li>
+        <li><span class="step-no">2</span><div><strong>文案与版块</strong><p>标题、简介、需要展示的栏目（例如作品、服务、联系方式）。</p></div></li>
+        <li><span class="step-no">3</span><div><strong>视觉风格</strong><p>配色、参考站、要不要配图（可用百炼生成真实场景图）。</p></div></li>
+      </ol>
+      <p class="note">也可以直接说「帮我做个 XX 的官网」，我来补全其余部分。</p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <span>© <span id="year">2026</span> Modi1996225</span>
+    <span>Built with plain HTML / CSS · Hosted on GitHub Pages</span>
+  </div>
+</footer>
+
+<script src="./assets/js/main.js" defer></script>
+</body>
+</html>
